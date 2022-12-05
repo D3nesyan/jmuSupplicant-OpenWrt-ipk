@@ -11,7 +11,7 @@ PKG_VERSION:=1.0
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/ShanQincheng/jmuSupplicant.git
+PKG_SOURCE_URL:=https://github.com/D3nesyan/jmuSupplicant.git
 PKG_REV:=9ddc31252146b481dc6bca116625be13d7f5bc7f
 
 PKG_SOURCE_VERSION:=$(PKG_REV)
@@ -26,7 +26,7 @@ define Package/jmusupplicant
   SECTION:=net
   CATEGORY:=Network
   TITLE:=Ruijie Client Daemon
-  URL:=https://github.com/ShanQincheng/jmuSupplicant
+  URL:=https://github.com/D3nesyan/jmuSupplicant
   DEPENDS:=+libpcap
 endef
 
